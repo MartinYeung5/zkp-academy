@@ -85,7 +85,7 @@ https://ithelp.ithome.com.tw/articles/10351893
 
 ## 零知識證明 (ZKP) 是如何工作?
 零知識證明結構分為交互式和非交互式兩大類別:
-1 交互式零知識證明(Interactive Zero Knowledge Proof (iZKP))
+1. 交互式零知識證明(Interactive Zero Knowledge Proof (iZKP))
 交互式零知識證明需要證明者和驗證者之間進行至少一次交互，以確保零知識證明正確進行。
 在交互式零知識證明中，證明者和驗證者會進行一次或多次交互，過程中需要交換訊息來證明證明者擁有相關知識。
 當中最常用的是Fiat-Shamir heuristic，驗證者會產生一個隨機值然後用於對證明者的挑戰。
@@ -108,7 +108,7 @@ https://ithelp.ithome.com.tw/articles/10351893
 
 這個交互過程需要重復多次進行，目的是確保證明者在不知道秘密信息的情況下而又猜出正確答案的概率變得足夠低。
 
-2 非交互式零知識證明(Non-Interactive Zero Knowledge Proof (niZKP))
+2. 非交互式零知識證明(Non-Interactive Zero Knowledge Proof (niZKP))
 非交互式零知識證明是不需要證明者和驗證者之間互動的ZKP。
 相反，證明者創建一個可以由驗證者驗證而無需任何交互的證明就可以，之後就給驗證者去做驗證。
 
