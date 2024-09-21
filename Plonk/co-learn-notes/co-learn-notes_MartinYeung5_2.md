@@ -212,7 +212,7 @@ ZK-STARK 不需要可信任的環境設定就可以立馬運行，而是依賴�
 ZK-STARK 使用抗碰撞雜湊進行加密，而不是 ZK-SNARK 中使用的橢圓曲線方案。
 這被認為可以抵抗量子計算的攻擊，因此比 SNARK 中使用的橢圓曲線更安全。
 
-總結，在驗證一個需要計算量更大的情況下，ZK-SNARK協議需要比ZK-STARK需要更多的時間來生成證明和驗證證明。
+在驗證一個需要計算量更大的情況下，ZK-SNARK協議需要比ZK-STARK需要更多的時間來生成證明和驗證證明。
 因此STARK會更適合處理大量交易的應用場景。
 
 ZK-STARK 的缺點是什麼？
@@ -246,7 +246,7 @@ SNARK 的遞歸組合可以以不同方式完成，例如通過使用遞歸證�
 1. 遞歸ZK-SNARK通過將多個L2(區塊鏈)證明整合在一起，然後向L1鏈(區塊鏈)提交單個證明，
 這樣可以極大地增加了可以用零知識證明完成的交易數量。
 
-
+總結，可以留意到ZK-SNARK、ZK-STARK、Recursive SNARK(遞歸SNARK)各有分別，然而在每個類型之下也有不同產品，可以因應不同的需求及場景選用合適的方案。
 
 參考資料:
 1. Scalable, transparent, and post-quantum secure computational integrity
